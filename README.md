@@ -1,6 +1,5 @@
 # 🏠 House Price Prediction using Machine Learning
 
-## 📌 Project Overview
 
 ## 📌 Project Overview
 
@@ -19,7 +18,6 @@ The model is developed using Python and Scikit-learn.
 
 ---
 
-## 🎯 Problem Statement
 
 ## 🎯 Problem Statement
 
@@ -28,8 +26,6 @@ Buying or selling a house requires estimating its market value accurately.
 The goal of this project is to build a Machine Learning regression model that predicts house prices based on different housing characteristics such as area, number of rooms, construction year, basement size, and other property features.
 
 ---
-
-## 📂 Dataset
 
 ## 📂 Dataset
 
@@ -71,16 +67,15 @@ The target variable is **SalePrice**, which represents the selling price of the 
 
 ## 📊 Machine Learning Workflow
 
-1. Import Dataset
-2. Explore Dataset
-3. Data Cleaning
-4. Handle Missing Values
-5. Feature Encoding
-6. Feature Selection
-7. Train-Test Split
-8. Model Training
-9. Model Evaluation
-10. House Price Prediction
+- Import Dataset
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Handle Missing Values
+- Feature Encoding
+- Train-Test Split
+- Model Training
+- Model Evaluation
+- House Price Prediction
 
 ---
 
