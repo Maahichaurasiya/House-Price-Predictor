@@ -2,34 +2,59 @@
 
 ## 📌 Project Overview
 
-This project predicts house prices using Machine Learning techniques. It demonstrates the complete machine learning workflow, including data preprocessing, exploratory data analysis (EDA), feature engineering, model training, and model evaluation using Python and Scikit-learn.
+## 📌 Project Overview
+
+This project demonstrates an end-to-end Machine Learning workflow for predicting residential house prices using the Ames Housing Dataset.
+
+The project includes:
+
+- Data preprocessing
+- Exploratory Data Analysis (EDA)
+- Feature Encoding
+- Model Training
+- Model Evaluation
+- House Price Prediction
+
+The model is developed using Python and Scikit-learn.
 
 ---
 
 ## 🎯 Problem Statement
 
-Estimating house prices accurately is important for buyers, sellers, and real estate businesses. The objective of this project is to build a regression model capable of predicting house prices based on housing features.
+## 🎯 Problem Statement
+
+Buying or selling a house requires estimating its market value accurately.
+
+The goal of this project is to build a Machine Learning regression model that predicts house prices based on different housing characteristics such as area, number of rooms, construction year, basement size, and other property features.
 
 ---
 
 ## 📂 Dataset
 
-The dataset contains the following information:
+## 📂 Dataset
 
-- Area
-- Bedrooms
-- Bathrooms
-- Stories
-- Main Road Access
-- Guest Room
-- Basement
-- Hot Water Heating
-- Air Conditioning
-- Parking
-- Preferred Area
-- Furnishing Status
-- Price (Target Variable)
+The project uses the **Ames Housing Dataset**.
 
+The dataset contains information about residential houses.
+
+Some important features include:
+
+| Feature | Description |
+|---------|-------------|
+| Id | Unique house ID |
+| MSSubClass | Type of dwelling |
+| MSZoning | Zoning classification |
+| LotArea | Lot size |
+| LotConfig | Lot configuration |
+| BldgType | Building type |
+| OverallCond | Overall house condition |
+| YearBuilt | Construction year |
+| YearRemodAdd | Last renovation year |
+| Exterior1st | Exterior material |
+| TotalBsmtSF | Total basement area |
+| SalePrice | Target Variable |
+
+The target variable is **SalePrice**, which represents the selling price of the house.
 ---
 
 ## ⚙️ Technologies Used
@@ -47,14 +72,15 @@ The dataset contains the following information:
 ## 📊 Machine Learning Workflow
 
 1. Import Dataset
-2. Data Cleaning
-3. Exploratory Data Analysis (EDA)
-4. Feature Encoding
-5. Feature Selection
-6. Train-Test Split
-7. Model Training
-8. Model Evaluation
-9. House Price Prediction
+2. Explore Dataset
+3. Data Cleaning
+4. Handle Missing Values
+5. Feature Encoding
+6. Feature Selection
+7. Train-Test Split
+8. Model Training
+9. Model Evaluation
+10. House Price Prediction
 
 ---
 
@@ -108,11 +134,13 @@ jupyter notebook
 
 ## 📈 Future Improvements
 
-- Hyperparameter Tuning
-- Model Deployment using Streamlit
-- Feature Engineering
-- Model Comparison
-- Cross Validation
+## 🚀 Future Improvements
+
+- Improve feature engineering
+- Compare multiple regression models
+- Hyperparameter tuning
+- Deploy using Streamlit
+- Cross-validation
 
 ---
 
